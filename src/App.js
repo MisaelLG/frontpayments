@@ -5,7 +5,7 @@ import PaymentForms from './PaymentForms';
 
 function App() {
   return (
-      <div className="layout">
+      <div className="layout layout-card">
           <PaymentForms />
       </div>
   );

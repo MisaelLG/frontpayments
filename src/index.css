@@ -11,7 +11,42 @@ body{
 }
 
 .card{
+  padding: 15px 20px;
   display: inline-block;
   border-radius: 10px;
-  box-shadow: 0 0 10px #dadada;
+  box-shadow: 1px 0px 15px #000000;
+}
+
+.layout-card  .rccs
+{
+  margin-bottom: 15px;
+}
+
+.layout-card .card-body form,
+.layout-card .card-body form .form-row
+{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.layout-card .card-body form .form-group,
+.layout-card .card-body form .form-group
+{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.layout-card .card-body form button
+{
+  margin-top: 15px !important;
+  width: 100%;
+  padding: 5px 20px;
+  margin: auto;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #0163e2;
+  border: 2px solid #1379ff;
+  color: #ffffff;
 }
